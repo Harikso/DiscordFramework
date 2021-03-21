@@ -24,7 +24,7 @@ except:
 		os.system("pip3 install discord")
 		os.system("clear")
 from discord.ext import commands
-functionList=" Discord Framework\n-------------------\nФункции:\n[1] Token Checker\n[2] Password Generator\n[Dev] Dev Information\n-------------------"
+functionList=" Discord Framework\nᛁ------------------ᛁ\nФункции:\n[1] Token Checker\n[2] Password Generator\n[Help] Function List\n[Dev] Dev Information\nᛁ------------------ᛁ"
 print(f"{functionList}")
 while True:
 		function=input("Введите номер функции: ")
@@ -47,5 +47,7 @@ while True:
 				while True:
 					time.sleep(1)
 					print("".join(random.choice(string.ascii_letters + string.digits) for _ in range(8)))
+		elif function=="Help":
+			print(f"{functionList}")
 		elif function=="Dev":
-			print(" Discord Framework\n-------------------\nСоздан: 05.03.2021\nСоздатель: 🍵Китайский Чай🍵\nВерсия: 0.0.3.beta\n-------------------")
+			print(" Discord Framework\nᛁ------------------ᛁ\nСоздан: 05.03.2021\nСоздатель: Harikso\nВерсия: 0.0.4.beta\nЛицензия: GPL-3.0\nᛁ------------------ᛁ")
